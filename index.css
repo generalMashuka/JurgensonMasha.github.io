@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@100&display=swap');
+body{
+    background-color: rgb(244, 238, 230);
+    width: 80%;
+    margin: auto;
+}
+
+.main{
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Montserrat', sans-serif;
+    font-size: larger;
+    border: 15px rgb(118, 104, 95) solid;
+    margin:20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.maininfo{
+    margin:50px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(75, 54, 54)
+}
+
+a:hover {
+    color:rgb(117, 91, 91)
+}
+
+a:visited {
+    color:rgb(44, 37, 33)
+}
+
+.work {
+    font-family: 'Montserrat', sans-serif;
+    border-width: 10px;
+    border-color: rgb(93, 63, 63) solid;
+    background-color: rgb(139, 134, 130);
+    border-radius: 50px;
+    margin: 30px;
+    padding: 30px;  
+}
+
+.work table {
+    margin:20px
+}
+
+.personal{
+    background-color: rgb(181, 160, 132);
+    border: 20px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    margin:20px;
+}
+
+.personal h2 {
+    position: center;
+    margin-left: 40px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+.imgs{
+    margin-left: 80px;
+}
+
+/*.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*body {
+    background-color:grey;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+}
+p {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: large;
+}
+
+.unformal {
+    font-family: fantasy;
+    font-weight: 900;
+}
+
+.family {
+    font-size: small;
+    font-weight: light;
+}
+.ingeneral {
+    
+}
+
